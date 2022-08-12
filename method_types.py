@@ -25,5 +25,7 @@ prasad = student(39,35,31,40)
 
 print(vivek.avg_stud())
 print(prasad.avg_stud())
+print(student.info())
+print(student.getinstitute())
 
 
