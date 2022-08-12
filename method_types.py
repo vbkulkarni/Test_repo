@@ -15,10 +15,6 @@ class student:
   def info(cls):
     return cls.institute
   
-  @staticmethod # Declaration of static method
-  def getinstitute():
-    print("This is student of DA")
-
  
 vivek = student(61,87,77,81)
 prasad = student(39,35,31,40)
@@ -26,6 +22,6 @@ prasad = student(39,35,31,40)
 print(vivek.avg_stud())
 print(prasad.avg_stud())
 print(student.info())
-print(student.getinstitute())
+
 
 
